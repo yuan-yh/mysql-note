@@ -1,3 +1,4 @@
+## Course Exercise
 When is MySQL Enterprise Support available?
 - 24 hours a day, 7 days a week
 
@@ -159,4 +160,95 @@ Which two statements about the download of MySQL Enterprise Backup are correct?
 - MySQL Enterprise Backup can be downloaded from My Oracle Support (MOS).
 - MySQL Enterprise Backup is a separate package from MySQL Enterprise Edition. It can be downloaded from https://edelivery.oracle.com.
 
+-----------------------------------------------------------------------------------------------------------------------------------------
+## Mockup
+
+By using MySQL replication, data can be replicated from source to replica. What are two advantages of MySQL replication?
+- Scale out, Analytics
+
+The replica connects to the source and asks for updated records. What command was issued for this to happen?
+- START REPLICA
+
+What is the benefit of using MySQL Enterprise Thread Pool?
+- Scalability
+
+Which MySQL Enterprise Edition component or plug-in replaces real values with substitutes?
+- MySQL Enterprise Masking
+
+Which MySQL Enterprise Security tool allows DBAs to track user activities such as Who, What, When, How, Status, From Where, DB version, OS version?
+- MySQL Enterprise Audit
+
+Which three languages are supported by MySQL Shell?
+- JavaScript, Python, SQL
+
+Which three operating systems are supported by MySQL?
+- macOS, Windows, Linux
+
+Where would you look to find easy-to-understand views that contain information about IO hot spots, locking, and costly SQL statements?
+- sys schema
+
+Which schema provides runtime statistics to monitor MySQL server execution at a low level?
+- Performance schema
+
+Which MySQL storage engine is fully ACID compliant and also the default when creating a table?
+- InnoDB
+
+Which backup method allows you to back up only the data that has changed since the last FULL backup?
+- Incremental
+
+Which three components are part of the core MySQL database architecture?
+- Optimizer, Parser, Storage Engine
+
+How would you replicate between two InnoDB Clusters?
+- Set up MySQL InnoDB ClusterSet.
+
+Which three components can MySQL InnoDB Cluster use to achieve database high availability?
+- MySQL Servers with Group Replication, to replicate data to all members of the cluster
+- MySQL Shell, to create and administer InnoDB Cluster using the built-in AdminAPI
+- MySQL Router, to ensure client requests are load balanced and routed to the correct server
+
+Which statement would you use to add a role in MySQL?
+- CREATE ROLE
+
+Which uniquely defines each user account identity in MySQL?
+- Username and host
+
+What statement allows you to assign a password to a MySQL user account?
+- SET PASSWORD
+
+What type of backups do mydumper and MySQL Shell take?
+- Logical
+
+Your container has a 7.5 GB MySQL database. They are using mydumper to back up their database, which is taking hours to complete. What can your container do to decrease backup time?
+- Use MySQL Enterprise Backup.
+
+Which log file is used to perform Point-in-Time Recovery (PITR)?
+- Binary log
+
+Which data type would you use for a column to store large chunks of binary data (e.g., images, audio)?
+- BLOB
+
+What are the minimum and maximum number of MySQL Servers you can have in an InnoDB Cluster?
+- Minimum 3 and maximum 9
+
+What does the InnoDB Cluster provide?
+- Automatic failover
+
+MySQL has many variables. Which two are mandatory MySQL variables?
+- datadir, basedir
+
+Which monitoring tool is included with MySQL Enterprise Edition?
+- Oracle Enterprise Manager
+
+You just installed MySQL using a package manager on Linux. Where is the default data directory (datadir) located that holds InnoDB log files (e.g., undo/redo logs)?
+- /var/lib/mysql
+
+When creating a table, which data type would you use for a column that contains only whole numbers (no fractions)?
+- INT
+
+Which replication is the default in MySQL?
+- Asynchronous
+
+Which statement is true about MySQL Replication?
+- Multiple replicas are possible.
 
